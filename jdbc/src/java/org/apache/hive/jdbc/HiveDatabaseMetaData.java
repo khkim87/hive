@@ -397,8 +397,8 @@ public class HiveDatabaseMetaData implements DatabaseMetaData {
             Arrays.asList("TABLE_CAT", "TABLE_SCHEM", "TABLE_NAME", "NON_UNIQUE",
                 "INDEX_QUALIFIER", "INDEX_NAME", "TYPE", "ORDINAL_POSITION", "COLUMN_NAME",
                 "ASC_OR_DESC", "CARDINALITY", "PAGES", "FILTER_CONDITION"),
-            Arrays.asList("STRING", "STRING", "STRING", "BOOLEAN", "STRING", "STRING", "SHORT",
-                "SHORT", "STRING", "STRING", "INT", "INT", "STRING")).build();
+            Arrays.asList("STRING", "STRING", "STRING", "BOOLEAN", "STRING", "STRING", "SMALLINT",
+                "SMALLINT", "STRING", "STRING", "INT", "INT", "STRING")).build();
   }
 
   public int getJDBCMajorVersion() throws SQLException {
